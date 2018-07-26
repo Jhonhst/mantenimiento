@@ -1,0 +1,7 @@
+base de datos:
+base1
+
+CREATE TABLE rubros(codigo INT AUTO_INCREMENT, descripcion VARCHAR(250)), PRIMARY KEY (codigo));
+
+CREATE TABLE articulos(codigo INT AUTO_INCREMENT, descripcion VARCHAR(250), precio INT(20), codigorubro INT(20), PRIMARY KEY (codigo));
+
